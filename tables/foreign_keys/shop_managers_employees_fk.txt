@@ -1,3 +1,0 @@
-alter table shop_managers
-add constraint shop_managers_employees_fk foreign key (manager_id)
-references employees (id)

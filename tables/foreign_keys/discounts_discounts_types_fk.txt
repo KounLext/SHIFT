@@ -1,3 +1,0 @@
-alter table discounts
-add constraint discounts_discounts_types_fk foreign key (type_id)
-references discounts_types (id)
